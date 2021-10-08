@@ -154,7 +154,7 @@ public class Train {
     public void showTotalBaggage(Controller controller) {
         int totalBaggage = 0;
         for(Wagon i : wagons) totalBaggage += i.getBaggage();
-        System.out.println("Total Passengers: " + totalBaggage);
+        System.out.println("Total Baggage: " + totalBaggage);
         controller.nextStep();
     }
     public void sortWagons(Comparator comparator){
