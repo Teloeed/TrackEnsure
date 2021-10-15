@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4dbef85d-9ba6-4129-8b3a-d6068b071b2a" name="Changes" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrackEnsure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TrackEnsure.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +15,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -39,8 +41,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -48,17 +57,32 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Lesson_5.Home.System" />
+      <recent name="Lesson_5.Home" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\TrackEnsure" />
+      <recent name="D:\Java\TrackEnsure\src\Lesson_5\Home\System\Menu" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Lesson_5.Home.System" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lesson_5.Home.System.Menu" />
       <recent name="Lesson_3.Home8.Menu" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindFiles">
-    <configuration name="FindFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_4.Home.FindFiles" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_5.Home.Main" />
       <module name="TrackEnsure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_4.Home.*" />
+          <option name="PATTERN" value="Lesson_5.Home.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_3.Home1.Main" />
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_5.Task2" />
       <module name="TrackEnsure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_3.Home1.*" />
+          <option name="PATTERN" value="Lesson_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_3.Home8.Main" />
+    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_5.Task4" />
       <module name="TrackEnsure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_3.Home8.*" />
+          <option name="PATTERN" value="Lesson_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_3.Home8.Menu.Menu" />
+    <configuration name="Task6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson_5.Task6" />
       <module name="TrackEnsure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_3.Home8.Menu.*" />
+          <option name="PATTERN" value="Lesson_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,26 +129,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson_3.Home1.main" />
+    <configuration name="OperatorTest.testLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TrackEnsure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson_3.Home1.*" />
+          <option name="PATTERN" value="Lesson_5.Home.System.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Lesson_5.Home.System" />
+      <option name="MAIN_CLASS_NAME" value="Lesson_5.Home.System.OperatorTest" />
+      <option name="METHOD_NAME" value="testLoad" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindFiles" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Menu" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.OperatorTest.testLoad" />
+        <item itemvalue="Application.Task6" />
+        <item itemvalue="Application.Task4" />
+        <item itemvalue="Application.Task2" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633701696185</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1">
+      <created>1633767148101</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1633767148101</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,5 +220,15 @@
     </ignored-roots>
     <MESSAGE value="1" />
     <option name="LAST_COMMIT_MESSAGE" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.EOFException" package="java.io" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
