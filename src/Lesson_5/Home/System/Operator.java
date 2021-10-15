@@ -241,7 +241,7 @@ public class Operator implements Serializable {
         double finalSquare = square;
 
         ArrayList<Apartment> apartmentsTemp = new ArrayList<>(apartments);
-        apartmentsTemp.sort(Comparator.comparing(Apartment::getApartmentSquare).reversed());
+        apartmentsTemp.sort(Comparator.comparing(Apartment::getApartmentSquare).thenComparing(Apartment::getFloor).reversed());
         apartmentsTemp.stream().filter(x -> x.getApartmentSquare() >= finalSquare).forEach(Apartment::print);
         nextStep();
     }
